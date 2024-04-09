@@ -15,7 +15,8 @@ MonoBehaviour:
   storyNumber: 0
   storyType: 0
   stroyDone: 0
-  storyText: 
+  storyText: " \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
+    \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8"
   options:
   - optionText: "\uACF5\uACA9\uD55C\uB2E4."
     buttonText: 
