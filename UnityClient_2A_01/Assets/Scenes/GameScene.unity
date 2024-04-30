@@ -249,7 +249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 46}
+  m_AnchoredPosition: {x: -6, y: 46}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732124703
@@ -274,11 +274,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 100
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -493,18 +493,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b3543d35a88c7a4fac7d532028c1e23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponect: {fileID: 732124703}
-  delay: 0.1
-  fullText: 
-  currentText: 
-  currentState: 0
   storyModels:
-  - {fileID: 11400000, guid: 78f487d50452ca94fb3fa6b0be0f767c, type: 2}
-  - {fileID: 11400000, guid: dace670e62b91734885be9ce8670429a, type: 2}
-  - {fileID: 11400000, guid: 34da6372afacee440a6b1c0d3a90aec4, type: 2}
-  - {fileID: 11400000, guid: cdc3bed78973ccd4bab41732c4dddc69, type: 2}
-  currentModels: {fileID: 11400000, guid: 78f487d50452ca94fb3fa6b0be0f767c, type: 2}
-  currentStoryIndex: 0
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &1705912392
 Transform:
   m_ObjectHideFlags: 0
