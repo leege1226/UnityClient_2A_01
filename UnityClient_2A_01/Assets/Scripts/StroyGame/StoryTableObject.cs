@@ -22,11 +22,11 @@ namespace STORYGAME
         {
             public string optionText;
             public string buttonText;
-            public EventCheek eventCheek;
+            public EventCheck eventCheek;
         }
 
         [System.Serializable]
-        public class EventCheek
+        public class EventCheck
         {
             public int checkValue;
             public Enums.EvenType eventType;
