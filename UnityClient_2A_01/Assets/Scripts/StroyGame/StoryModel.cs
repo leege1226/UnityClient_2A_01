@@ -16,7 +16,7 @@ public class StoryModel : ScriptableObject
         SUB,
         SERIAL
     }
-    public STORYTYPE storyType;         //스토리 타입 선언
+    public STORYTYPE storytype;         //스토리 타입 선언
     public bool storyDone;              //스토리 종료 여부
 
     [TextArea(10, 10)]                 //텍스트 영역 표시
