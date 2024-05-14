@@ -2,13 +2,12 @@ using STORYGAME;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static STORYGAME.StoryTableObject;
 
-[CreateAssetMenu(fileName = "NewStory", menuName = "ScriptableObject/StoryTableObject")]
+[CreateAssetMenu(fileName = "NewStory", menuName = "ScriptableObjects/StoryTableModel")]
 public class StoryModel : ScriptableObject
 {
     public int storyNumber;             //스토리 번호
-    public Texture2D mainImage;         //스토리 보여줄 이미지 텍스쳐
+    public Texture2D MainImage;         //스토리 보여줄 이미지 텍스쳐
 
     public enum STORYTYPE               //스토리 타입 설정
     {
