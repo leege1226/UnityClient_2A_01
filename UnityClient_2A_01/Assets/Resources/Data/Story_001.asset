@@ -10,27 +10,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 104a418a1d18e454c991144cde3370c6, type: 3}
-  m_Name: NewStory 444
+  m_Name: Story_001
   m_EditorClassIdentifier: 
-  storyNumber: 0
+  storyNumber: 1
   MainImage: {fileID: 2800000, guid: ad21b58b76830194da8456de9dfa4e9d, type: 3}
   storytype: 0
   storyDone: 0
-  storyText: "\uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 "
+  storyText: "\uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC
+    1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC
+    1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC
+    1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC
+    1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC
+    1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC 1 \uC2A4\uD1A0\uB9AC
+    1 "
   options:
   - optionText: 
     buttonText: "\uC120\uD0DD\uC9C0 1"
     eventCheak:
       cheakvalue: 0
       eventType: 0
-      sucessRasult: []
+      sucessRasult:
+      - resultType: 4
+        valuel: 2
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
       failResult: []
   - optionText: 
     buttonText: "\uC120\uD0DD\uC9C0 2"

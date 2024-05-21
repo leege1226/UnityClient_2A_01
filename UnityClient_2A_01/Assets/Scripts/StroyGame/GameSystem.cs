@@ -7,6 +7,7 @@ using STORYGAME;
 
 
 #if UNITY_EDITOR
+[CustomEditor(typeof(GameSystem))]
 
 public class GameSystemEditor : Editor
 {
@@ -81,8 +82,8 @@ public class GameSystem : MonoBehaviour
     {
         StoryModel tempStoryModel = FindStoryModel(number);
 
-        //StorySystem.Instance.currentStoryModel = tempStoryModels;
-        //StorySystem.Instance.CoShowText();
+        StorySystem.instance.currentStoryModel = tempStoryModel;
+        StorySystem.instance.CoShowText();
     }
 
 
